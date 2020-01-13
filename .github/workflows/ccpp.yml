@@ -10,6 +10,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: build
-      run: g++ main.cpp -O MazeSolver_Graph
+      run: g++ main.cpp -o MazeSolver_Graph
     - name: run
       run: ./MazeSolver_Graph
